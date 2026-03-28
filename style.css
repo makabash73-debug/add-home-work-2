@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+
+}
+header{
+    background-color: white;
+    height: 90px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.hero{
+    background-color: lightgreen;
+    padding: 60px 0;
+}
+.about{
+    background-color:#f9f9f9;
+    padding: 80px 0;
+}
+.services{
+    background-color: lightpink;
+    height: 300px;
+}
+
+.contact{
+    background-color: lightgray;
+    height: 300px;
+
+}
+footer{
+    background-color: lightcoral              ;
+    height: 100px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+.logo img{
+    width: 120px;
+    display: block;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.hero-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.hero-text{
+    width: 50%;
+    padding-right: 40px;
+
+}
+.hero-text h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.hero-text p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.hero-text button{
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.hero-image{
+    width: 50%;
+}
+.hero-image img{
+    width: 100%;
+}
+.about-cards{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    flex: 1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+.about-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+
+}
+.about-text{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #555;
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+.card h3{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.card p{
+    margin: 0;
+    line-height: 1.6;
+}
+.services-cards{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.service-card{
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    flex: 1;
+
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+.service-card:hover{
+    transform: translateY(-5px);
+}
+.service-card h3{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.service-card p{
+     margin: 0;
+     line-height: 1,6;
+}
