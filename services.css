@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    
+}
+.services-header{
+    background-image: url(./images/hero/services-image.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+    padding: 30px 60px;
+}
+.top-services{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+
+    
+}
+.column-services{
+    margin-top: 300px;
+}
+.hero-content p{
+    margin-top: 400px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.hero-content h1{
+     font-size: 100px;
+     margin-left: 60px;
+}
+.hero-content h1 span{
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+}
+.nav-logo{
+    font-size: 25px;
+    font-weight: 800;
+}
+.nav-services{
+    gap: 70px;
+    display: flex;
+    margin-right: 30%;
+    
+}
+.nav-services a{
+    color: white;
+    text-decoration: none;
+}
+.nav-services .active{
+    color:#9fe870 ;
+}
+.nav-social{
+    display: flex;
+    gap: 40px;
+    margin-right: 60px;
+    
+}
+.nav-social a{
+    color: white;
+    text-decoration: none;
+}
+.cards-services{
+    padding: 80px 60px;
+    background-color: #f3f3f3;
+    color: white;
+    
+}
+.cards-top{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    
+    
+}
+.cards-bottom{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    
+}
+.service-card{
+    background-color: #0d0d0d;
+    padding: 35px ;
+    border-radius: 12px;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+   
+    
+}
+.service-card p:first-of-type{
+    max-width: 400px;
+    font-size: 14px;
+}
+.service-card h3{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.service-card button{
+    padding: 12px 24px;
+    align-self: flex-start;
+     background-color: #d8f36b;
+     margin-top: auto;
+     border-radius: 999px;
+     border: none;
+     cursor: pointer;
+     transition: 0.3s;
+     font-weight: 600;
+    
+} 
+.service-card button:hover{
+    background-color: #a9d81a;
+    transform: translateY(-5px);
+} 
+.service-card hr{
+    margin: 20px 0;
+}
+.service-card p:not(:first-of-type){
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 1613px){
+    .cards-services{
+        padding: 60px 30px;
+        
+    }
+    .services-header{
+    background-position: 70% center;
+}
+}
+
+
+
+
+@media (max-width: 1060px){
+    .nav-services{
+        margin-right: 0;
+        gap: 30px;
+    }
+    .nav-social{
+        gap: 15px;
+    }
+    .nav-social a{
+        white-space: nowrap;
+    }
+}
+@media (max-width: 766px){
+    .top-services{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .cards-top{
+        flex-wrap: wrap;
+    }
+    .cards-bottom{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 520px){
+    .hero-content h1{
+        font-size: 50px;
+    }
+}
+
