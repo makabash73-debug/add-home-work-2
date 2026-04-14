@@ -225,6 +225,9 @@ body{
     .services-header{
     background-position: 70% center;
 }
+    .footer-content{
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -253,8 +256,28 @@ body{
         flex-wrap: wrap;
     }
     .cards-bottom{
-        flex-wrap: wrap;
+       flex-wrap: wrap;
+        
     }
+    .left-bottom {
+        flex-wrap: wrap;
+        width: 200px;
+    }
+    .right-bottom {
+        flex-wrap: wrap;
+        column-gap: 60px;
+    }
+    .footer-content{
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 50px;
+        padding: 40px 24px;
+    }
+    .left-footer{
+        margin-left: 0;
+        width: 100%;
+    }
+    
 }
 @media (max-width: 520px){
     .hero-content h1{
