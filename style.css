@@ -137,7 +137,7 @@ body {
 .hero-text button {
     padding: 12px 28px;
     font-size: 10px;
-    background-color: #d8ff63;
+    background-color: #858c6a;
     color: black;
     border: none;
     border-radius: 999px;
@@ -231,7 +231,7 @@ h3,a{
     margin-top: 30px;
     display: flex;
     gap: 20px;
-    
+    flex-wrap: wrap;
 }
 
 .service-card {
@@ -326,6 +326,7 @@ h3,a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
        
 }
 
@@ -583,7 +584,7 @@ h3,a{
         align-items: center;
     }
     .header{
-        height: 100px;
+        height: 120px;
     }
    
   

@@ -88,6 +88,7 @@ body{
     min-height: 850px;
     background-position: 5% 100%;
     background-repeat: no-repeat;
+    border-radius: 20px;
 }
 .about-story-content h2{
     font-size: 78px;
@@ -101,9 +102,78 @@ body{
 }
 .about-story-content p{
     color: white;
+    padding-left: 80px;
+    margin-top: 400px;
+    font-size: 18px;
     
 
 }
+.about-cards{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.about-card{
+    flex: 1;
+    border-radius: 20px;
+    min-height: 520px;
+    padding: 30px;
+    overflow: hidden;
+    
+    
+}
+.certifications-card{
+    background-color: #999f9d;
+}
+.classifications-card{
+    background-color: #d8f36b;
+}
+.card-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.card-text h3{
+    font-size: 26px;
+    margin-bottom: 260px;
+    font-weight: 700;
+
+}
+.about-card p{
+    font-size: 18px;
+    
+}
+.card-linkedin{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    margin-top: 20px;
+    text-decoration: none;
+    
+}
+.card-text p{
+    margin-bottom: 10px;
+}
+.card-image img:hover{
+    transform: translateY(-4px);
+    border-radius: 20px;
+}
+.card-image img{
+   border-radius: 20px;
+    display: block;
+    transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+
+
+
+
 
 
 
@@ -114,7 +184,7 @@ body{
     display: flex;
     justify-content: space-between;
     border-top: 4px solid #d8f36b;
-   
+
 
 }
 .left-footer{
@@ -189,6 +259,7 @@ body{
         
     }
 
+
 @media (max-width:1300px){
     .nav-logo{
         margin-right: 30px;
@@ -205,6 +276,40 @@ body{
         margin-right: 0;
         flex-wrap: wrap;
     }
+    .body{
+        overflow-x: hidden;
+    }
+    .about-header{
+        padding: 10px;
+        background-position: 30%;
+    }
+    .about-nav{
+        flex-wrap: wrap;
+        gap: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about-cards{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .about-section{
+        padding: 30px 20px;
+    }
+     .card-content{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+       .about-card{
+        min-height: auto;
+        padding: 24px;
+    
+ 
+    
+   
 }
 @media (max-width:495px){
     .about-nav{
@@ -222,4 +327,19 @@ body{
         padding: 20px;
     }
 }
+@media (max-width:1069px){
+    .about-story{
+        min-width: 850px;
+    }
+    .about-story-content h2{
+        font-size: 78px;
+        padding: 80px;
+    }
+    .about-story-content p{
+        max-width: 520px;
+        margin-top: 260px;
+        margin-left: 80px;
+    }
+}
+
      
