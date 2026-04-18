@@ -215,6 +215,12 @@ body{
         
         
     }
+    .seburger{
+        display: none;
+        color: white;
+        
+        
+    }
 
 
 @media (max-width: 1613px){
@@ -245,6 +251,13 @@ body{
     }
     .nav-social a{
         white-space: nowrap;
+    }
+    .nav-services,
+    .nav-social{
+        display: none;
+    }
+    .seburger{
+        display: block;
     }
 }
 @media (max-width: 766px){
@@ -282,6 +295,12 @@ body{
 @media (max-width: 520px){
     .hero-content h1{
         font-size: 50px;
+    }
+    .top-services{
+        margin-bottom: 60px;
+    }
+    .column-services{
+        margin-top: 30px;
     }
 }
 

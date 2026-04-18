@@ -12,7 +12,7 @@ body{
 }
 .about-header{
     /* background-image: url(./images/hero/person.avif); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('./images/hero/person.avif');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(./images/image-about/gogona.avif);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -184,8 +184,8 @@ body{
     display: flex;
     justify-content: space-between;
     border-top: 4px solid #d8f36b;
-
-
+    /* flex-direction: column;
+    align-items: center; */
 }
 .left-footer{
     margin-left: 70px;
@@ -258,6 +258,10 @@ body{
         
         
     }
+    .abburger{
+        display: none;
+        color: white;
+    }
 
 
 @media (max-width:1300px){
@@ -282,6 +286,7 @@ body{
     .about-header{
         padding: 10px;
         background-position: 30%;
+        background-size: contain;
     }
     .about-nav{
         flex-wrap: wrap;
@@ -306,14 +311,30 @@ body{
        .about-card{
         min-height: auto;
         padding: 24px;
+    }
+    .left-bottom{
+        width: 0;
+        height: 0;
+        column-gap: 0;
+    }
+    .left-top h2{
+        font-size: 30px;
+    }
+    .nav-menu,
+    .nav-social{
+        display: none;
+    }
+    .abburger{
+        display: block;
+    }
     
- 
     
-   
 }
+
 @media (max-width:495px){
     .about-nav{
         flex-direction: column;
+        margin-bottom: -121px;
     }
     .nav-menu{
         flex-direction: column;
@@ -326,20 +347,45 @@ body{
     .about-header{
         padding: 20px;
     }
+    .right-footer{
+        width:95% ;
+    }
+    .left-footer{
+        margin-left: 0%;
+    }
+    .hero-content{
+        margin-top: 20px;
+    }.hero-content h1{
+        margin-bottom: 25px;
+        font-size: 26px;
+    }
 }
 @media (max-width:1069px){
     .about-story{
-        min-width: 850px;
+        min-width: 50px;
     }
     .about-story-content h2{
-        font-size: 78px;
-        padding: 80px;
+        font-size: 34px;
+        padding: 27px;
     }
     .about-story-content p{
         max-width: 520px;
-        margin-top: 260px;
+        margin-top: 160px;
         margin-left: 80px;
+        padding-left: 20px;
     }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px;
+       
+        
+    }
+    .hero-content h1{
+        font-size: 52px;
+    }
+    
 }
 
      

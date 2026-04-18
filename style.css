@@ -393,7 +393,7 @@ h3,a{
     width: 50%;
 }
 .cta-right{
-    width: 50%;
+    width: 100%;
 }
 .cta-image{
     background-image: url(./images/hero/cta-image.avif);
@@ -542,6 +542,10 @@ h3,a{
 .footer-copy p{
     font-size: 14px;
 }
+.burger{
+   display: none;
+   color: white; 
+}
 
 @media (max-width:929px){
     .menu,
@@ -568,7 +572,14 @@ h3,a{
         flex-direction: column;
 
     }
-   
+    nav{
+        display: none;
+    }
+    .burger{
+        display: block;
+        align-items: center; 
+        justify-content: center;
+    }
 
 
 }
@@ -577,14 +588,24 @@ h3,a{
          flex-direction: column;
          justify-content: center;
          gap: 20px;
-         height: auto; 
+         height: auto;
+         padding: 20px 0; 
     }
     .services-cards{
         flex-direction: column;
         align-items: center;
     }
     .header{
-        height: 120px;
+        height: 144px;
+    }
+    .about-image{
+        width: 90%;
+    }
+    .services-header{
+        flex-direction: column;
+    }
+    .services-btn{
+        padding: 24px 31px;
     }
    
   
